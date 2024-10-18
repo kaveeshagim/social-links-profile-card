@@ -73,7 +73,7 @@ body {
 .card {
   background: var(--Grey-800);
   border-radius: 20px;
-  padding: 15px;
+  padding: 20px;
 }
 
 /* Header Styles */
@@ -86,8 +86,8 @@ header {
 }
 
 header img {
-  height: 70px;
-  width: 70px;
+  height: 75px;
+  width: 75px;
   border-radius: 50%;
   margin-bottom: 25px;
 }
@@ -95,7 +95,7 @@ header img {
 header h1 {
   font-family: "Inter Bold", sans-serif;
   color: var(--White);
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   margin: 0;
 }
@@ -103,7 +103,7 @@ header h1 {
 header .location {
   font-family: "Inter Bold", sans-serif;
   color: var(--Green);
-  font-size: 8px;
+  font-size: 11px;
   margin: 8px 0 12px;
 }
 
@@ -111,8 +111,8 @@ header p {
   font-family: "Inter Variable", sans-serif;
   font-weight: 200;
   color: var(--White);
-  font-size: 10px;
-  margin: 8px 0 0;
+  font-size: 11px;
+  margin: 10px 0 0;
 }
 
 /* Main Styles */
@@ -131,7 +131,7 @@ header p {
 
 .profile-links ul li {
   background: var(--Grey-700);
-  margin-bottom: 13px;
+  margin-bottom: 15px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -142,8 +142,8 @@ header p {
   color: var(--White);
   font-family: "Inter SemiBold", sans-serif;
   line-height: 1.5;
-  font-size: 10px;
-  padding: 8px 0; /* Add padding for better touch target */
+  font-size: 13px;
+  padding: 10px 0; /* Add padding for better touch target */
   text-align: center;
 }
 
