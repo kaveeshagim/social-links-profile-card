@@ -100,7 +100,7 @@ header h1 {
   margin: 0;
 }
 
-header h6 {
+header .location {
   font-family: "Inter Bold", sans-serif;
   color: var(--Green);
   font-size: 8px;
@@ -116,27 +116,27 @@ header p {
 }
 
 /* Main Styles */
-main {
+.profile-links {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 10px;
 }
 
-ul {
+.profile-links ul {
   list-style: none;
   width: 100%;
   padding: 0;
 }
 
-ul li {
+.profile-links ul li {
   background: var(--Grey-700);
   margin-bottom: 13px;
   border-radius: 8px;
   cursor: pointer;
 }
 
-ul li a {
+.profile-links ul li a {
   display: block; /* Make the entire area clickable */
   text-decoration: none;
   color: var(--White);
@@ -147,11 +147,11 @@ ul li a {
   text-align: center;
 }
 
-ul li:hover {
+.profile-links ul li:hover {
   background: var(--Green);
 }
 
-ul li:hover a {
+.profile-links ul li:hover a {
   color: var(--Grey-900);
 }
 
@@ -177,12 +177,12 @@ footer a {
     font-size: 18px;
   }
 
-  header h6,
+  header .location,
   header p {
     font-size: 10px;
   }
 
-  ul li {
+  .profile-links ul li {
     font-size: 12px;
   }
 }
